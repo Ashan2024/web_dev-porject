@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Colourful Box Layout</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+
+        header{
+            background-color: blue; 
+            color: white;
+            text-align: center;
+            padding: 8px;
+            font-weight: bold;
+            font-size: 1.5rem;
+            border-radius: 8PX;
+        }
+
+        Main content layout
+        .main-content {
+            display: flex;
+            gap: 20PX;
+            width: 20PX;
+        }
+
+        .box {
+            flex:1;
+            color: white;
+            text-align: center;
+            padding: 40px 40px; 
+            font-weight: bold;
+            font-size: 1.2rem;
+            border-radius: 8px;
+        }
+
+        .box-1 { background-color: #dc2626; } 
+        .box-2 { background-color: #16a34a; } 
+        .box-3 { background-color: #facc15; color: #333; } 
+
+        
+        footer {
+            background-color: #64748b; 
+            color: white;
+            text-align: center;
+            padding: 20px;
+            font-weight: bold;
+            border-radius: 8px;
+        }
+    </style>
+</head>
+
+    <header>
+        My Header
+    </header>
+
+    <main class="main-content">
+        <div class="box box-1">Box 1</div>
+        <div class="box box-2">Box 2</div>
+        <div class="box box-3">Box 3</div>
+    </main>
+
+    <footer>
+        My Footer
+    </footer>
+
+</body>
+</html>
